@@ -57,10 +57,9 @@ def print_script(debugger, command, result, internal_dict):
             continue
         else:
             # other opcode
-            opname = frame.EvaluateExpression("GetOpName((opcodetype)%s[%d])" % (args[0], currentpc))
+            opname = frame.EvaluateExpression("GetOpName((opcodetype)%s[%d]).c_str()" % (args[0], currentpc))
             opname.SetFormat(lldb.eFormatCString)
             readable_script.append(opname.GetValue())
-
     print(' '.join(readable_script).replace('"', ''))
 
 
