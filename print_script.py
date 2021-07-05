@@ -12,7 +12,7 @@ def print_script(debugger, command, result, internal_dict):
 
     args = shlex.split(command)
     if len(args) == 0:
-        print('please input a variable')
+        print('please input a variable', file=result)
         return
 
     size = frame.EvaluateExpression("(int)%s.size()" % args[0])
@@ -60,7 +60,7 @@ def print_script(debugger, command, result, internal_dict):
             opname = frame.EvaluateExpression("GetOpName((opcodetype)%s[%d]).c_str()" % (args[0], currentpc))
             opname.SetFormat(lldb.eFormatCString)
             readable_script.append(opname.GetValue())
-    print(' '.join(readable_script).replace('"', ''))
+    print(' '.join(readable_script).replace('"', ''), file=result)
 
 
 # And the initialization code to add your commands
