@@ -14,7 +14,7 @@ def print_script(debugger, command, result, internal_dict):
     if len(args) == 0:
         print('please input a variable', file=result)
         return
-
+    # 如果不是 -g -O0 编译的， 那.size()会被inline,会报错
     size = frame.EvaluateExpression("(int)%s.size()" % args[0])
     script_size = int(size.GetValue())
 
