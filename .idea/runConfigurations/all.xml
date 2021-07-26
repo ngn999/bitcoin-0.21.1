@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="all" type="CLionNativeAppRunConfigurationType" PROGRAM_PARAMS="-regtest" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bitcoin-0.21.1" TARGET_NAME="all" CONFIG_NAME="all" version="1" RUN_PATH="$PROJECT_DIR$/src/bitcoind">
+  <configuration default="false" name="all" type="CLionNativeAppRunConfigurationType" PROGRAM_PARAMS="-regtest -wallet=&quot;$USER_HOME$/Library/Application Support/Bitcoin/regtest/wallets/my_first_wallet/&quot;" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bitcoin-0.21.1" TARGET_NAME="all" CONFIG_NAME="all" version="1" RUN_PATH="$PROJECT_DIR$/src/bitcoind">
     <method v="2" />
   </configuration>
 </component>
