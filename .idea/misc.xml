@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
           </set>
         </option>
+        <option name="preConfigureCommands" value="./autogen.sh &amp;&amp; CFLAGS=&quot;-g -O0&quot; CXXFLAGS=&quot;-g -O0&quot; ./configure --disable-tests --disable-gui-test --disable-bench --disable--ccache --disable-zmq --disable-man --disable-largefile --with-boost=/opt/homebrew/" />
         <option name="version" value="2" />
       </MakefileProjectSettings>
     </option>
