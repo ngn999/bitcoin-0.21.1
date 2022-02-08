@@ -1235,7 +1235,7 @@ bool EvalScript(std::vector<std::vector<unsigned char> >& stack, const CScript& 
                         else
                             return set_error(serror, SCRIPT_ERR_CHECKMULTISIGVERIFY);
                     }
-                }
+                } // OP_CHECKMULTISIG
                 break;
 
                 default:

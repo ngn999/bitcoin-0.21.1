@@ -140,7 +140,7 @@ static bool SignStep(const SigningProvider& provider, const BaseSignatureCreator
         sigdata.missing_redeem_script = h160;
         return false;
 
-    case TxoutType::MULTISIG: {
+    case TxoutType::MULTISIG: { // 多签，在这里保证了，签名的顺序和pubKey的顺序是一致的。
         size_t required = vSolutions.front()[0];
         ret.push_back(valtype()); // workaround CHECKMULTISIG bug
         for (size_t i = 1; i < vSolutions.size() - 1; ++i) {
