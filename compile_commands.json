@@ -32,12 +32,12 @@
       "-O0",
       "-c",
       "-o",
-      "libbitcoin_server_a-noui.o",
-      "noui.cpp"
+      "node/libbitcoin_server_a-ui_interface.o",
+      "node/ui_interface.cpp"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/noui.cpp",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/libbitcoin_server_a-noui.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/node/ui_interface.cpp",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/node/libbitcoin_server_a-ui_interface.o"
   },
   {
     "arguments": [
@@ -72,12 +72,12 @@
       "-O0",
       "-c",
       "-o",
-      "node/libbitcoin_server_a-ui_interface.o",
-      "node/ui_interface.cpp"
+      "policy/libbitcoin_server_a-fees.o",
+      "policy/fees.cpp"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/node/ui_interface.cpp",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/node/libbitcoin_server_a-ui_interface.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/policy/fees.cpp",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/policy/libbitcoin_server_a-fees.o"
   },
   {
     "arguments": [
@@ -152,12 +152,12 @@
       "-O0",
       "-c",
       "-o",
-      "policy/libbitcoin_server_a-fees.o",
-      "policy/fees.cpp"
+      "libbitcoin_server_a-noui.o",
+      "noui.cpp"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/policy/fees.cpp",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/policy/libbitcoin_server_a-fees.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/noui.cpp",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/libbitcoin_server_a-noui.o"
   },
   {
     "arguments": [
@@ -2749,12 +2749,12 @@
       "-O0",
       "-c",
       "-o",
-      "support/libbitcoin_util_a-lockedpool.o",
-      "support/lockedpool.cpp"
+      "libbitcoin_util_a-chainparamsbase.o",
+      "chainparamsbase.cpp"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/support/lockedpool.cpp",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/support/libbitcoin_util_a-lockedpool.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/chainparamsbase.cpp",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/libbitcoin_util_a-chainparamsbase.o"
   },
   {
     "arguments": [
@@ -2786,12 +2786,12 @@
       "-O0",
       "-c",
       "-o",
-      "libbitcoin_util_a-chainparamsbase.o",
-      "chainparamsbase.cpp"
+      "support/libbitcoin_util_a-lockedpool.o",
+      "support/lockedpool.cpp"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/chainparamsbase.cpp",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/libbitcoin_util_a-chainparamsbase.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/support/lockedpool.cpp",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/support/libbitcoin_util_a-lockedpool.o"
   },
   {
     "arguments": [
@@ -3008,12 +3008,12 @@
       "-O0",
       "-c",
       "-o",
-      "libbitcoin_util_a-logging.o",
-      "logging.cpp"
+      "libbitcoin_util_a-random.o",
+      "random.cpp"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/logging.cpp",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/libbitcoin_util_a-logging.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/random.cpp",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/libbitcoin_util_a-random.o"
   },
   {
     "arguments": [
@@ -3045,12 +3045,12 @@
       "-O0",
       "-c",
       "-o",
-      "libbitcoin_util_a-random.o",
-      "random.cpp"
+      "libbitcoin_util_a-logging.o",
+      "logging.cpp"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/random.cpp",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/libbitcoin_util_a-random.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/logging.cpp",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/libbitcoin_util_a-logging.o"
   },
   {
     "arguments": [
@@ -4676,12 +4676,12 @@
       "-O0",
       "-c",
       "-o",
-      "crypto/libbitcoin_crypto_base_a-sha512.o",
-      "crypto/sha512.cpp"
+      "crypto/libbitcoin_crypto_base_a-sha3.o",
+      "crypto/sha3.cpp"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/crypto/sha512.cpp",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/crypto/libbitcoin_crypto_base_a-sha512.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/crypto/sha3.cpp",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/crypto/libbitcoin_crypto_base_a-sha3.o"
   },
   {
     "arguments": [
@@ -4703,12 +4703,12 @@
       "-O0",
       "-c",
       "-o",
-      "crypto/libbitcoin_crypto_base_a-sha3.o",
-      "crypto/sha3.cpp"
+      "crypto/libbitcoin_crypto_base_a-sha512.o",
+      "crypto/sha512.cpp"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/crypto/sha3.cpp",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/crypto/libbitcoin_crypto_base_a-sha3.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/crypto/sha512.cpp",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/crypto/libbitcoin_crypto_base_a-sha512.o"
   },
   {
     "arguments": [
@@ -5693,12 +5693,12 @@
       "-O0",
       "-c",
       "-o",
-      "leveldb/table/libleveldb_a-two_level_iterator.o",
-      "leveldb/table/two_level_iterator.cc"
+      "leveldb/util/libleveldb_a-arena.o",
+      "leveldb/util/arena.cc"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/leveldb/table/two_level_iterator.cc",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/leveldb/table/libleveldb_a-two_level_iterator.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/leveldb/util/arena.cc",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/leveldb/util/libleveldb_a-arena.o"
   },
   {
     "arguments": [
@@ -5732,12 +5732,12 @@
       "-O0",
       "-c",
       "-o",
-      "leveldb/util/libleveldb_a-arena.o",
-      "leveldb/util/arena.cc"
+      "leveldb/table/libleveldb_a-two_level_iterator.o",
+      "leveldb/table/two_level_iterator.cc"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/leveldb/util/arena.cc",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/leveldb/util/libleveldb_a-arena.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/leveldb/table/two_level_iterator.cc",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/leveldb/table/libleveldb_a-two_level_iterator.o"
   },
   {
     "arguments": [
@@ -5810,12 +5810,12 @@
       "-O0",
       "-c",
       "-o",
-      "leveldb/util/libleveldb_a-coding.o",
-      "leveldb/util/coding.cc"
+      "leveldb/util/libleveldb_a-cache.o",
+      "leveldb/util/cache.cc"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/leveldb/util/coding.cc",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/leveldb/util/libleveldb_a-coding.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/leveldb/util/cache.cc",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/leveldb/util/libleveldb_a-cache.o"
   },
   {
     "arguments": [
@@ -5849,12 +5849,12 @@
       "-O0",
       "-c",
       "-o",
-      "leveldb/util/libleveldb_a-cache.o",
-      "leveldb/util/cache.cc"
+      "leveldb/util/libleveldb_a-coding.o",
+      "leveldb/util/coding.cc"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/leveldb/util/cache.cc",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/leveldb/util/libleveldb_a-cache.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/leveldb/util/coding.cc",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/leveldb/util/libleveldb_a-coding.o"
   },
   {
     "arguments": [
@@ -7050,12 +7050,12 @@
       "-fno-common",
       "-DPIC",
       "-o",
-      "crypto/libbitcoinconsensus_la-sha512.o",
-      "crypto/sha512.cpp"
+      "crypto/libbitcoinconsensus_la-sha3.o",
+      "crypto/sha3.cpp"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/crypto/sha512.cpp",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/crypto/libbitcoinconsensus_la-sha512.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/crypto/sha3.cpp",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/crypto/libbitcoinconsensus_la-sha3.o"
   },
   {
     "arguments": [
@@ -7082,12 +7082,12 @@
       "-fno-common",
       "-DPIC",
       "-o",
-      "crypto/libbitcoinconsensus_la-sha3.o",
-      "crypto/sha3.cpp"
+      "crypto/libbitcoinconsensus_la-sha512.o",
+      "crypto/sha512.cpp"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/crypto/sha3.cpp",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/crypto/libbitcoinconsensus_la-sha3.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/crypto/sha512.cpp",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/crypto/libbitcoinconsensus_la-sha512.o"
   },
   {
     "arguments": [
@@ -7546,38 +7546,6 @@
       "-I../src/config",
       "-U_FORTIFY_SOURCE",
       "-D_FORTIFY_SOURCE=2",
-      "-I./obj",
-      "-I./secp256k1/include",
-      "-DBUILD_BITCOIN_INTERNAL",
-      "-DHAVE_BUILD_INFO",
-      "-D__STDC_FORMAT_MACROS",
-      "-DMAC_OSX",
-      "-DOBJC_OLD_DISPATCH_PROTOTYPES=0",
-      "-Wstack-protector",
-      "-fstack-protector-all",
-      "-fstack-clash-protection",
-      "-g",
-      "-O0",
-      "-c",
-      "-fno-common",
-      "-DPIC",
-      "-o",
-      "util/libbitcoinconsensus_la-strencodings.o",
-      "util/strencodings.cpp"
-    ],
-    "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/util/strencodings.cpp",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/util/libbitcoinconsensus_la-strencodings.o"
-  },
-  {
-    "arguments": [
-      "/usr/bin/g++",
-      "-std=c++11",
-      "-DHAVE_CONFIG_H",
-      "-I.",
-      "-I../src/config",
-      "-U_FORTIFY_SOURCE",
-      "-D_FORTIFY_SOURCE=2",
       "-I.",
       "-I./secp256k1/include",
       "-I/opt/homebrew/opt/berkeley-db@4/include",
@@ -7605,6 +7573,38 @@
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
     "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/bitcoind.cpp",
     "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/bitcoind-bitcoind.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++11",
+      "-DHAVE_CONFIG_H",
+      "-I.",
+      "-I../src/config",
+      "-U_FORTIFY_SOURCE",
+      "-D_FORTIFY_SOURCE=2",
+      "-I./obj",
+      "-I./secp256k1/include",
+      "-DBUILD_BITCOIN_INTERNAL",
+      "-DHAVE_BUILD_INFO",
+      "-D__STDC_FORMAT_MACROS",
+      "-DMAC_OSX",
+      "-DOBJC_OLD_DISPATCH_PROTOTYPES=0",
+      "-Wstack-protector",
+      "-fstack-protector-all",
+      "-fstack-clash-protection",
+      "-g",
+      "-O0",
+      "-c",
+      "-fno-common",
+      "-DPIC",
+      "-o",
+      "util/libbitcoinconsensus_la-strencodings.o",
+      "util/strencodings.cpp"
+    ],
+    "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/util/strencodings.cpp",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/util/libbitcoinconsensus_la-strencodings.o"
   },
   {
     "arguments": [
@@ -7919,12 +7919,12 @@
       "-O0",
       "-c",
       "-o",
-      "libbitcoin_server_a-dbwrapper.o",
-      "dbwrapper.cpp"
+      "libbitcoin_server_a-flatfile.o",
+      "flatfile.cpp"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/dbwrapper.cpp",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/libbitcoin_server_a-dbwrapper.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/flatfile.cpp",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/libbitcoin_server_a-flatfile.o"
   },
   {
     "arguments": [
@@ -7959,12 +7959,12 @@
       "-O0",
       "-c",
       "-o",
-      "libbitcoin_server_a-flatfile.o",
-      "flatfile.cpp"
+      "libbitcoin_server_a-dbwrapper.o",
+      "dbwrapper.cpp"
     ],
     "directory": "/Users/guinengni/code/cc/bitcoin-0.21.1/src",
-    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/flatfile.cpp",
-    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/libbitcoin_server_a-flatfile.o"
+    "file": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/dbwrapper.cpp",
+    "output": "/Users/guinengni/code/cc/bitcoin-0.21.1/src/libbitcoin_server_a-dbwrapper.o"
   },
   {
     "arguments": [
