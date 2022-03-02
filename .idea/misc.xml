@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="MakefileSettings">
+  <component name="CompDBSettings">
     <option name="linkedExternalProjectsSettings">
-      <MakefileProjectSettings>
-        <option name="buildOptions" value="--jobs=9" />
+      <CompDBProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
           </set>
         </option>
-        <option name="preConfigureCommands" value="./autogen.sh &amp;&amp; CFLAGS=&quot;-g -O0&quot; CXXFLAGS=&quot;-g -O0&quot; ./configure --disable-tests --disable-gui-test --disable-bench --disable--ccache --disable-zmq --disable-man --disable-largefile --with-boost=/opt/homebrew/" />
-        <option name="version" value="2" />
-      </MakefileProjectSettings>
+      </CompDBProjectSettings>
     </option>
   </component>
-  <component name="MakefileWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CompDBWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
 </project>
