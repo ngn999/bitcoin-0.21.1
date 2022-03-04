@@ -281,7 +281,7 @@ bool CKey::Derive(CKey& keyChild, ChainCode &ccChild, unsigned int nChild, const
         BIP32Hash(cc, nChild, *pubkey.begin(), pubkey.begin()+1, vout.data());
     } else {
         assert(size() == 32);
-        BIP32Hash(cc, nChild, 0, begin(), vout.data()); // hardened child is derived from the master key directly
+        BIP32Hash(cc, nChild, 0, begin(), vout.data()); // hardened child is derived from the private key
     }
     memcpy(ccChild.begin(), vout.data()+32, 32);
     memcpy((unsigned char*)keyChild.begin(), begin(), 32);
