@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "vector": "cpp"
+    },
+    "files.exclude": {
+        "**/*.a": true,
+        "**/*.lo": true,
+        "**/*.o": true
+    },
+    "search.exclude": {
+        "**/.cache": true,
+        "**/.ccls-cache": true,
+        "**/.idea": true,
+        "**/test": true
+    }
+}
