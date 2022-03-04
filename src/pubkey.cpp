@@ -252,7 +252,7 @@ bool CPubKey::Decompress() {
 
 bool CPubKey::Derive(CPubKey& pubkeyChild, ChainCode &ccChild, unsigned int nChild, const ChainCode& cc) const {
     assert(IsValid());
-    assert((nChild >> 31) == 0);
+    assert((nChild >> 31) == 0); // non-hardened,why?
     assert(size() == COMPRESSED_SIZE);
     unsigned char out[64];
     BIP32Hash(cc, nChild, *begin(), begin()+1, out);

@@ -274,13 +274,14 @@ bool CKey::Derive(CKey& keyChild, ChainCode &ccChild, unsigned int nChild, const
     assert(IsValid());
     assert(IsCompressed());
     std::vector<unsigned char, secure_allocator<unsigned char>> vout(64);
-    if ((nChild >> 31) == 0) {
+    if ((nChild >> 31) == 0) { // index of the key to derive
+        // non-hardened child is derived from public key
         CPubKey pubkey = GetPubKey();
         assert(pubkey.size() == CPubKey::COMPRESSED_SIZE);
         BIP32Hash(cc, nChild, *pubkey.begin(), pubkey.begin()+1, vout.data());
     } else {
         assert(size() == 32);
-        BIP32Hash(cc, nChild, 0, begin(), vout.data());
+        BIP32Hash(cc, nChild, 0, begin(), vout.data()); // hardened child is derived from the master key directly
     }
     memcpy(ccChild.begin(), vout.data()+32, 32);
     memcpy((unsigned char*)keyChild.begin(), begin(), 32);
